@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-header">
+      <h1><a href="./index.html" id="logo">days.</a></h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="mountain slide">
+        <div class="hero-image">
+          <img src="./img/forest.png" alt="forest image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Freedom at your <span class="mountain-span">fingertips.</span>
+            </h2>
+            <div class="title-swipe t-swipe1"></div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque non
+            maxime sapiente assumenda, dolores laboriosam rerum provident ad
+            repudiandae impedit?
+          </p>
+          <a href="" class="explore mountain-explore">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="hike slide">
+        <div class="hero-image">
+          <img src="./img/hike.png" alt="hike image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>Freedom at your <span class="hike-span">fingertips.</span></h2>
+            <div class="title-swipe t-swipe2"></div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque non
+            maxime sapiente assumenda, dolores laboriosam rerum provident ad
+            repudiandae impedit?
+          </p>
+          <a href="" class="explore hike-explore">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="fashion slide">
+        <div class="hero-image">
+          <img src="./img/fashion.png" alt="fashion image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Freedom at your <span class="fashion-span">fingertips.</span>
+            </h2>
+            <div class="title-swipe t-swipe3"></div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque non
+            maxime sapiente assumenda, dolores laboriosam rerum provident ad
+            repudiandae impedit?
+          </p>
+          <a href="./fashion/index.html" class="explore fashion-explore"
+            >Explore</a
+          >
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+    </main>
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <h3>Twitter</h3>
+        <h3>YouTube</h3>
+        <h3>Instagram</h3>
+      </ul>
+      <div class="contact">
+        <h2>Stay in touch</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta
+          animi rerum quo obcaecati reprehenderit labore adipisci ab architecto
+          fugit?
+        </p>
+      </div>
+    </nav>
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
